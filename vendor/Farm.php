@@ -57,11 +57,9 @@ final class Farm implements FarmInterface
         }
     }
 
-    public function getInfo()
+    public function getCrop()
     {
-        foreach ($this->_crop as $type => $value) {
-            echo $type . " : " . $value . "<br />";
-        }
+        return $this->_crop;
     }
 
     

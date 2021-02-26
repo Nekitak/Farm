@@ -11,5 +11,5 @@ interface FarmInterface
     public function add(AnimalInterface $animal);
     public function harvest();
     
-    public function getInfo();
+    public function getCrop();
 }
